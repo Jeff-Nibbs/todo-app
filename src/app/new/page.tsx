@@ -24,24 +24,24 @@ export default function New() {
   return (
     <>
       <header className="flex justify-between items-center mb-4">
-        <h1 className="text-9xl">New</h1>
+        <h1 className="text-9xl font-druk">New</h1>
       </header>
       <form action={createTodo} className="flex flex-col gap-2">
         <input
           type="text"
           name="title"
-          className="text-2xl border-2 border-slate-300 bg-transparent rounded px-4 py-2 outline-none focus-within:border-slate-100"
+          className="font-ntxpro text-2xl border-2 border-slate-300 bg-transparent rounded px-4 py-2 outline-none focus-within:border-slate-100"
         />
         <div className="flex gap-1 justify-end">
           <Link
             href=".."
-            className="border-2 border-slate-300 text-slate-300 text-5xl px-4 py-2 rounded hover:bg-slate-700 focus-within:bg-slate-700 outline-none"
+            className="font-ntxpro border-2 border-slate-300 text-slate-300 text-2xl px-4 py-2 rounded hover:bg-slate-700 focus-within:bg-slate-700 outline-none"
           >
             Cancel
           </Link>
           <button
             type="submit"
-            className="border-2 border-slate-300 text-slate-300 text-5xl px-4 py-2 rounded hover:bg-slate-700 focus-within:bg-slate-700 outline-none"
+            className="font-ntxpro border-2 border-slate-300 text-slate-300 text-2xl px-4 py-2 rounded hover:bg-slate-700 focus-within:bg-slate-700 outline-none"
           >
             Create
           </button>
